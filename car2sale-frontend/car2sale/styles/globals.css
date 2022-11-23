@@ -1,0 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color: rgba(233, 68, 75) !important;
+}
+
+a:hover {
+  color: rgb(116, 35, 39) !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5% !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: black !important;
+}
+
+.navbar {
+  height: 117px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.02);
+  justify-content: space-between;
+  margin-left: 5em;
+  margin-right: 5em;
+  z-index: 9999 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}

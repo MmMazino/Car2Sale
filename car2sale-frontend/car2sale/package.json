@@ -1,0 +1,25 @@
+{
+  "name": "car2sale",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "draft-js": "^0.11.7",
+    "next": "^13.0.3",
+    "next-auth": "^4.10.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-image-gallery": "^1.2.11"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "^13.0.3"
+  }
+}
